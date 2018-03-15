@@ -5,5 +5,12 @@ module.exports = {
         type: 'wysiwyg'
       }
     }
+  },
+  project: {
+    attributes: {
+      description: {
+        type: 'froala'
+      }
+    }
   }
 };

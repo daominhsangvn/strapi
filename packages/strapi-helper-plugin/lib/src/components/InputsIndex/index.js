@@ -22,6 +22,7 @@ import InputTextAreaWithErrors from 'components/InputTextAreaWithErrors';
 import InputTextWithErrors from 'components/InputTextWithErrors';
 import InputToggleWithErrors from 'components/InputToggleWithErrors';
 import WysiwygWithErrors from 'components/WysiwygWithErrors';
+import FroalaWithErrors from 'components/FroalaWithErrors';
 
 const DefaultInputError = ({ type }) => <div>Your input type: <b>{type}</b> does not exist</div>;
 
@@ -40,6 +41,7 @@ const inputs = {
   textarea: InputTextAreaWithErrors,
   toggle: InputToggleWithErrors,
   wysiwyg: WysiwygWithErrors,
+  froala: FroalaWithErrors,
 };
 
 function InputsIndex(props) {
